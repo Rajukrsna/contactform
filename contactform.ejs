@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactform.css">
+    
+</head>
+<body>
+ 
+  
+    <section id="main">
+        <a href='https://postimg.cc/WDtfnsM1' target='_blank'><img class="background-image" src='https://i.postimg.cc/MGY2zTHV/Untitled-design.png' border='0' alt='Untitled-design'/></a>
+    <div class="content">
+    <div id="container ">
+      
+        <h1>&bull; Give your Details in Contact Form &bull;</h1>
+        <div class="underline">
+        </div>
+        
+        <form action="/contact" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Enter your Name" name="fname" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Enter your Email" name="femail" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Enter your Phone number" name="fphone" id="telephone_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Give Your Suggestions" name="fsubject" id="subject_input" required>
+              <option disabled hidden selected>Subject line</option>
+              <option>I'd like to start a project</option>
+              <option>I'd like apply for an Intership in your company</option>
+              <option>I'd like to Showcase my Talent</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Type your queries" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="SUBMIT" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+    </div>
+    </section>
+</body>
+</html>
